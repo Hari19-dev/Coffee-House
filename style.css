@@ -1,0 +1,174 @@
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+header {
+  padding: 20px;
+  text-align: left;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.logo img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+header h1 {
+  color: #00704a;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-top: 2px;
+}
+
+.banner {
+  background-color: #00704a;
+  text-align: center;
+  padding: 40px 0;
+  color: #fff;
+  margin-top: 40px;
+}
+
+.banner h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.banner p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.special-items {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0; /* Adjusted padding */
+}
+
+.item {
+  flex-basis: 30%;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 15px; /* Adjusted padding */
+  border-radius: 5px;
+  transition: box-shadow 0.3s ease;
+}
+
+.item img {
+  width: 100%; /* Adjusted image width */
+  height: auto; /* Adjusted to maintain aspect ratio */
+  border-radius: 5px;
+}
+
+.item h3 {
+  font-size: 20px; /* Slightly smaller font size */
+  margin: 5px 0; /* Adjusted margins */
+}
+
+.item p {
+  font-size: 14px; /* Smaller font size */
+}
+
+
+.item a {
+  margin-top: 20px;
+}
+
+.item:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+.price-tag {
+  font-weight: bold; 
+}
+
+.button {
+  display: inline-block;
+  background-color: #00704a;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.button:hover {
+  background-color: #036635;
+}
+
+
+.todays-offer {
+  text-align: center;
+  background-color: #00704a;
+  padding: 40px 0;
+  color: #fff;
+}
+
+.todays-offer h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.todays-offer img {
+  width: 200px;
+  border-radius: 5px;
+}
+
+.todays-offer p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: darkslategray;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+footer p{
+  margin-bottom: 5px;
+}
+
+.contact-info {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-info a{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.contact-info img{
+  width: 40px;
+  height: 40px;
+}
+
+.copy-right{
+  font-size: 18px;
+}
+
+.foot-logo{
+  margin-right: 5px;
+  margin-bottom: -12px;
+  width: 40px;
+  height: 40px;
+  border-radius: 18px;
+}
